@@ -13,6 +13,8 @@ Facet queries are issued through the `FacetQueries` property of `QueryOptions`. 
 Two-11
 Three-1
 Three-2
+Three-3
+Three-4
 ### Querying by field
 Querying by field is handled by the `SolrFacetFieldQuery` class. Results are available through the `FacetFields` property.
 
