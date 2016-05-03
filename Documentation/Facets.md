@@ -1,6 +1,6 @@
 # Faceting
 
-SolrNet supports [faceted searching](https://cwiki.apache.org/confluence/display/solr/Faceting).
+SolrNet supports [faceted searching](http://wiki.apache.org/solr/SolrFacetingOverview).
 
 There are basically three kinds of facet queries:
 
@@ -21,7 +21,6 @@ Simply set Limit to the number of values that you want Solr to return for the sp
 ```
 
 Or on the other hand your project requires all facets to be returned and since Solr's default value for `Limit` is 100 then you may need to set to a higher number or even an unlimited value which is -1.  Word of advise is that for performance considerations you set only to what you require and not unlimited.
-
 ### Querying by field
 Querying by field is handled by the `SolrFacetFieldQuery` class. Results are available through the `FacetFields` property.
 
