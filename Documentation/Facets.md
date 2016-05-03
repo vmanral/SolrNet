@@ -12,7 +12,6 @@ Facet queries are issued through the `FacetQueries` property of `QueryOptions`. 
 
 one
 New change
-Hello
 #### Facet Limits
 There is a possibility that a field that you are using as a facet may have too many values and thus you may want to limit how many should be displayed. For this purpose we have the `Limit` property in `SolrFacetFieldQuery`.
 
