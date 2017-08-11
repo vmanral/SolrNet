@@ -13,6 +13,8 @@ Facet queries are issued through the `FacetQueries` property of `QueryOptions`. 
 This is my first change.
 
 Test 1 
+This is my second change.
+
 Two-11
 Three-1
 Three-2
