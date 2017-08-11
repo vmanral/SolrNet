@@ -10,6 +10,8 @@ There are basically three kinds of facet queries:
 
 Facet queries are issued through the `FacetQueries` property of `QueryOptions`. Then the `QueryOptions` instance is passed to the server instance.
 
+This is my first change.
+
 Two-11
 Three-1
 Three-2
